@@ -11,7 +11,7 @@ sentence2 = "Hi again, just making sure it's reversed!"
 def reverse_each_word(sentence)
   sentence2 = sentence.split
   sentence2.collect do |word|
-    word.reverse!
+    word.reverse
   end
   sentence2.join("")
 end

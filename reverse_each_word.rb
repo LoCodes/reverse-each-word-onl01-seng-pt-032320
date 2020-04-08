@@ -5,6 +5,6 @@ sentence2 = "Hi again, just making sure it's reversed!"
 
 
 def reverse_each_word(sentence1)
+  reverse_each_word.split.collect
   binding.pry
-  reverse_each_word.reverse
 end

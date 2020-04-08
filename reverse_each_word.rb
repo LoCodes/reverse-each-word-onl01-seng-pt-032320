@@ -5,7 +5,7 @@ sentence2 = "Hi again, just making sure it's reversed!"
 
 
 def reverse_each_word(sentence1)
-  sentence1.collect{|letter| letter.capitalize}
+  sentence1.collect{|word| word.split.join("")}
 
   # .reverse.split.reverse.join(" ")
 end

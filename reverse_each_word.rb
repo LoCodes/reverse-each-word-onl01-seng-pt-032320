@@ -5,5 +5,5 @@ sentence2 = "Hi again, just making sure it's reversed!"
 
 
 def reverse_each_word(sentence1)
-  sentence1.collect.reverse.split.reverse.join(" ")
+  sentence1.reverse.split.reverse.join(" ")
 end

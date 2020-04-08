@@ -8,8 +8,8 @@ sentence2 = "Hi again, just making sure it's reversed!"
 #   sentence1.reverse.split.reverse.join(" ")
 # end
 
-def reverse_each_word(sentence2)
-  sentence2 = sentence2.split
+def reverse_each_word(sentence)
+  sentence2 = sentence.split
   sentence2.collect do |word|
     word.reverse!
   end
